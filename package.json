@@ -9,8 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^4.1.17",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^3.10.0",
+    "react-intersection-observer": "^8.32.1",
+    "react-router-dom": "^5.2.0",
+    "react-slick": "^0.29.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",

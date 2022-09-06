@@ -6,17 +6,17 @@ import {HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton} from './Her
 export default function Hero() {
     return (
         <HeroSection>
-            <HeroVideo src='./assets/hero.mp4'/>
+            <HeroVideo src='./assets/segurity.mp4' autoPlay muted/>
             <Container>
-                <MainHeading>Your data is secure with us</MainHeading>
+                <MainHeading>Tu informacion estara seguro con nosotros.</MainHeading>
                 <HeroText>
-                    We provide the best security system for clients all over the world
+                Ofrecemos un sistema de seguridad completo para todo el mundo.
                 </HeroText>
                 <ButtonWrapper>
                     <Link to='singup'>
-                        <Button>Get Started</Button>
+                        <Button>Empezar</Button>
                     </Link>
-                    <HeroButton>Find More</HeroButton>
+                    <HeroButton>Leer mas...</HeroButton>
                 </ButtonWrapper>
             </Container>
         </HeroSection>

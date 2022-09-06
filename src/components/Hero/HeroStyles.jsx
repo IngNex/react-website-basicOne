@@ -40,7 +40,7 @@ export const HeroButton = styled(Button)`
     color: black;
 
     &::before{
-        background: #fff;
+        background: #f74b51;
         height: 500%;
     }
 

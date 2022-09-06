@@ -112,7 +112,7 @@ export const Button = styled.button`
 	overflow: hidden;
 	position: relative;
 	&:before {
-		background: #fff;
+		background: #f74b51;
 		content: '';
 		position: absolute;
 		top: 50%;

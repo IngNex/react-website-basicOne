@@ -3,6 +3,6 @@ import Hero from './Hero/Hero'
 
 export default function Index() {
   return (
-    <Hero/>
+    <h1></h1>
   )
 }

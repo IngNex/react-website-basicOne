@@ -35,6 +35,12 @@ export const NavLogo = styled(Link)`
 	display: flex;
 	align-items: center;
 	z-index: 50;
+
+	&:hover {
+		color: #f3385a;
+		transition: all 0.3s ease;
+	}
+
 `;
 
 export const NavIcon = styled.img`
@@ -53,7 +59,6 @@ export const MobileIcon = styled.div`
 		right: 0;
 		transform: translate(-100%, 60%);
 		font-size: 1.8rem;
-		cursor: pointer;
 	}
 `;
 
@@ -106,7 +111,7 @@ export const NavLinks = styled.span`
 	height: 100%;
 
 	&:hover {
-		color: #c8c9d8;
+		color: #f3385a;
 		transition: all 0.3s ease;
 	}
 
@@ -117,7 +122,7 @@ export const NavLinks = styled.span`
 		display: table;
 
 		&:hover {
-			color: #4b59f7;
+			color: #f74b51;
 			transition: all 0.3s ease;
 		}
 	}

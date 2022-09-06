@@ -22,7 +22,6 @@ git commit -m 'deploy'
 main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
-Mio seria ... ... ..........:ingnex/react-website-basicOne.git main:gh-pages
+# git push -f git@github.com:ingnex/react-website-basicOne.git main:gh-pages
 
 cd –

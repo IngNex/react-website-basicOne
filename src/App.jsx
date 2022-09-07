@@ -11,7 +11,7 @@ export default function App() {
     <Router>
       <GlobalStyle/>
       <Switch>
-        <Route path='/' exact component={Home}></Route>
+        <Route path='' exact component={Home}></Route>
         <Route path='/signup' exact component={SignUp}>SignUp</Route>
         <Route path='/pricing' exact component={Pricing}>Princing</Route>
       </Switch>

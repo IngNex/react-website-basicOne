@@ -40,7 +40,7 @@ export default function Navbar() {
       <Nav>
         <NavbarContainer>
           <NavLogo to='/'>
-            <NavIcon src='./ingnex.png' alt='logo'/>
+            <NavIcon src='./assets/ingnex.png' alt='logo'/>
             IngNex
           </NavLogo>
           <MobileIcon onClick={handleClick}>{show ? <FaTimes/>: <CgMenuRight/>}</MobileIcon>

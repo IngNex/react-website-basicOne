@@ -6,7 +6,7 @@ import {HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton} from './Her
 export default function Hero() {
     return (
         <HeroSection>
-            <HeroVideo src='./assets/segurity.mp4' autoPlay muted/>
+            <HeroVideo src='' autoPlay muted/>
             <Container>
                 <MainHeading>Tu informacion estara seguro con nosotros.</MainHeading>
                 <HeroText>

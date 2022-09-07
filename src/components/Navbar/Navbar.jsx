@@ -5,6 +5,7 @@ import { IconContext } from 'react-icons'
 import {Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavLinks, NavItem} from './NavbarStyles'
 import {useLocation, useHistory} from 'react-router-dom'
 import {data} from '../../data/NavbarData'
+import logoingnex from '../../assets/ingnex.png'
 
 export default function Navbar() {
 
@@ -40,7 +41,7 @@ export default function Navbar() {
       <Nav>
         <NavbarContainer>
           <NavLogo to='/'>
-            <NavIcon src='./assets/ingnex.png' alt='logo'/>
+            <NavIcon src={logoingnex} alt='logo'/>
             IngNex
           </NavLogo>
           <MobileIcon onClick={handleClick}>{show ? <FaTimes/>: <CgMenuRight/>}</MobileIcon>

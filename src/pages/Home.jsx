@@ -1,5 +1,4 @@
 import React from 'react'
-import Index from '../components'
 import Hero from '../components/Hero/Hero'
 import Navbar from '../components/Navbar/Navbar'
 

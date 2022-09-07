@@ -8,7 +8,7 @@ import {data} from '../../data/NavbarData'
 
 export default function Navbar() {
 
-  //Logic
+  //Logica para poder realizar la interaccion con los links
   const [show, setShow] = useState(false);
 
   let history = useHistory();
@@ -34,8 +34,6 @@ export default function Navbar() {
     setShow(true);
 
   }
-
-  
 
   return (
     <IconContext.Provider value={{color: '#fff'}}>
